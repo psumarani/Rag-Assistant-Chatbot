@@ -1,0 +1,32 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Data & logs (regenerated at runtime)
+data/documents/*
+!data/documents/.gitkeep
+data/vector_store/*
+!data/vector_store/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
